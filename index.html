@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New and More</title>
     <link rel="stylesheet" href="style.css">
+    <script src="pop.js"></script>
+
 </head>
 
 <body>
@@ -20,12 +22,28 @@
                 </div>
                 <div class="card-body">
                     <p class="news">
+                        <h1>Balen 'New Mayor of Metro'</h1>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ullam qui temporibus
                         architecto nostrum tempore sint blanditiis, consectetur neque fugit dolore sunt voluptatibus.
                         Animi, excepturi laborum dicta cupiditate saepe vero.
                     </p>
-                    <a href="/" class="btn">Continue Reading</a>
 
+                    <!-- POP UP CONTENT -->
+
+                    <div class="popup" id="popup-1">
+                        <div class="overlay"></div>
+                        <div class="content">
+                            <div class="close-btn" onclick="togglePopup()">&times;</div>
+                            <h1>Title</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur laborum rem sed
+                                laudantium excepturi veritatis voluptatum architecto, dolore quaerat totam officiis nisi
+                                animi accusantium alias inventore nulla atque debitis.</p>
+                        </div>
+                    </div>
+
+                    <!-- POP UP CONTENT ENDS -->
+                    <!-- <a href="/" class="btn">Continue Reading</a> -->
+                    <a href="#" class="btn" onclick="togglePopup()">Continue Reading</a>
                 </div>
             </div>
             <div class="card">
