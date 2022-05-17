@@ -1,1 +1,1 @@
-# Beta-Blog
+# https://acrazypotato.github.io/Beta-Blog/
